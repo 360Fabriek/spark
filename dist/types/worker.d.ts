@@ -1,5 +1,5 @@
-import type { ExtResult, PackedResult, SplatEncoding } from "./defines";
-declare const rpcHandlers: {
+import { type ExtResult, type PackedResult, type SplatEncoding } from "./defines";
+export declare const rpcHandlers: {
     sortSplats16: typeof sortSplats16;
     sortSplats32: typeof sortSplats32;
     loadPackedSplats: typeof loadPackedSplats;
